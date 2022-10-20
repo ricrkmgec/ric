@@ -9,7 +9,7 @@ const Core = () => {
       <h2 className='text-center mt-4'>Present Chairman</h2>
       <Card/>
       <h2 className='text-center mt-4'>Core Members</h2>
-      <Card/>
+      <Card/> <Card/> <Card/>
     </div>
   )
 }
