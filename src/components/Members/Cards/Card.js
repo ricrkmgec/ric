@@ -7,7 +7,7 @@ const Card = () => {
   return (
     <div>
       <div className="card mx-auto m-3 border border-3 border-primary p-2" style={{ width: '23rem' }}>
-        <img src={images} className="card-img-top img-thumbnail border border-2 border-info rounded-circle p-2" style={{ height: '50vh' }} alt="..." />
+        <img src={images} className="card-img-top img-thumbnail border border-2 border-info rounded-circle p-2" style={{ height: '50vh', boxShadow:' rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.42) 0px 15px 12px'}} alt="..." />
         <div className="card-body mx">
           <h3 className="card-title">Bindu Hite</h3>
           <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
